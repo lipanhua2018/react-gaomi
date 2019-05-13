@@ -1,0 +1,78 @@
+.header-root{
+    height: 100%;
+    .heade-route{
+        height: 100%;
+        background-color: white;       
+        .navigation-box{
+            width: 100%;
+            .logo-box{
+                float: left;
+                width: 30%;
+                height: 80px;
+                box-sizing: border-box;
+                border-bottom: 1px solid #ddd;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                img{
+                    cursor: pointer;
+                }              
+            }
+            .menu-nav{
+                float: left;
+                width: 70%;
+                height: 80px;
+                border-bottom: 1px solid #ddd;
+                // overflow: hidden;
+                box-sizing: border-box;
+                padding-left: 30px;
+                li{
+                    float: left;
+                    width: 120px;
+                    height: 100%;
+                    text-align: center;
+                    position: relative;
+                    .child-nav{
+                        clear: both;
+                        position: absolute;
+                        width: 100%;
+                        top: 80px;
+                        left: 0;
+                        border: 1px solid #ddd;
+                        border-top: 0px;
+                        box-shadow: 3px 3px 5px rgba($color: #000000, $alpha: 0.2);
+                        background-color: white;
+                        z-index: 10;
+                        li{
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            font-size: 13px;
+                            cursor: pointer;
+                            &:hover{
+                                background: #f3f3f3;
+                            }
+                        }
+                    }             
+                }
+                a{
+                    width: 100%;
+                    height: 100%;
+                    line-height: 79px;  
+                    display: inline-block;
+                    box-sizing: border-box;
+                    text-decoration:none;
+                    color: #333;
+                    &:hover{
+                        border-bottom: 3px solid #4a8bd5;
+                    }    
+                }
+                .cur-nav{
+                    border-bottom: 3px solid #4a8bd5;
+                }
+            }
+            
+            
+        }
+    }
+}

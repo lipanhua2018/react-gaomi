@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?8jzmld');
+  src:  url('fonts/icomoon.eot?8jzmld#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8jzmld') format('truetype'),
+    url('fonts/icomoon.woff?8jzmld') format('woff'),
+    url('fonts/icomoon.svg?8jzmld#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-newspaper:before {
+  content: "\e904";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-book:before {
+  content: "\e91f";
+}
+.icon-stack:before {
+  content: "\e92e";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-spinner9:before {
+  content: "\e982";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-stats-bars:before {
+  content: "\e99c";
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-warning:before {
+  content: "\ea07";
+}
+.icon-notification:before {
+  content: "\ea08";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-volume-medium:before {
+  content: "\ea27";
+}
+.icon-volume-mute2:before {
+  content: "\ea2a";
+}
+.icon-loop2:before {
+  content: "\ea2e";
+}
+.icon-arrow-up:before {
+  content: "\ea32";
+}
+.icon-arrow-right:before {
+  content: "\ea34";
+}
+.icon-arrow-down:before {
+  content: "\ea36";
+}
+.icon-arrow-left:before {
+  content: "\ea38";
+}
+.icon-circle-up:before {
+  content: "\ea41";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}

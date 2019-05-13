@@ -1,0 +1,26 @@
+.Levelnav{
+    height: 40px;
+    background: -webkit-linear-gradient(#ffffff, #dfe5ee); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#ffffff, #dfe5ee); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#ffffff, #dfe5ee); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ffffff, #dfe5ee); /* 标准的语法 */
+    .ul-nav {
+        width: 70%;
+        overflow: hidden;
+        margin: auto;
+        li{
+            float: left;
+            line-height: 40px;
+            padding-right: 5px;
+            cursor: pointer;
+            span{
+                color: #666;
+                font-size: 12px;
+                &:hover{
+                    color: #4a8bd5;
+                    border-bottom: 1px solid #4a8bd5;
+                }
+            }
+        }
+    }
+}

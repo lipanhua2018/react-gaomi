@@ -1,0 +1,33 @@
+.home-root{
+    position: relative;
+    color: black;
+    .page-floor{       
+        padding-bottom: 35px;
+        .second-title{
+            height: 80px;
+            line-height: 80px;
+            text-align: center;           
+            span{
+                font-size: 12px;
+            }
+        }
+    }
+    .album-area{
+        color: white;
+        background-color: #4a8bd5;
+    }
+    .news-area{
+        color: #111;
+        background-color: #e7edf5;
+    }
+    .return-top{
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        font-size: 30px;
+        cursor: pointer;
+        &:hover{
+            color: rgb(87, 113, 134);
+        }
+    }
+}

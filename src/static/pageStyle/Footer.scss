@@ -1,0 +1,12 @@
+.footer-root{
+    background-image: url('../img/footer-bg.png');
+    height: 190px;
+    box-sizing: border-box;
+    padding: 40px;
+    div{
+        font-size: 12px;
+        text-align: center;
+        line-height: 30px;
+        color: rgba($color: white, $alpha: 0.6);
+    }
+}

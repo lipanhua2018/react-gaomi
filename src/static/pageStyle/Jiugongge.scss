@@ -1,0 +1,41 @@
+.jiugongge-root{
+    background-color: white;
+    overflow: hidden;
+    padding: 15px;
+    .row-margin{
+        margin: 12px 0;
+    }
+    .jiugongge-row{
+        display: flex;
+        justify-content: space-between;        
+        height: 180px;
+        .jiugongge-cell{
+            width: 32%;
+            height: 100%;
+            cursor: pointer;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+                transition: all 0.3s;
+                &:hover{
+                    transform: scale(1.05,1.05);
+                }
+            }
+            .postiton-text{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 36px;
+                width: 100%;
+                line-height: 36px;
+                text-align: center;
+                color: white;
+                background-color: rgba($color: #000000, $alpha: 0.3)
+            }
+        }
+    }
+    .paging-area{
+        margin-top: 15px;
+    }
+}

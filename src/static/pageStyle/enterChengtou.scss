@@ -1,0 +1,75 @@
+.child-root{
+    box-sizing: border-box;
+    background-color: white;
+    padding: 35px;
+    line-height: 24px;
+    .title-h2{
+        text-align: center;
+    }
+    .p{
+        text-indent: 30px;
+        padding: 15px 0;
+        color: #666;
+    }
+    .div-b{
+        b{
+            float: right;
+        }
+    }
+    .div-img{
+        padding-top: 25px;
+        img{
+            width: 100%;
+        }
+    }
+    .zhiliang-b{
+        font-size: 18px;
+        padding-top: 30px;
+        span{
+            color: red;
+        }
+    }
+    .lianxi-title{
+        padding-bottom: 20px;
+    }
+    .div-catalog{
+        line-height: 40px;
+        text-indent: 15px;
+        cursor: pointer;
+        &:hover{
+            box-shadow: 0px 0px 3px 3px rgb(220, 235, 252);
+        }
+    }
+}
+.Rongyu-root{
+    overflow: hidden;
+    .rongyu-img{
+        float: left;
+        width: 31%;
+        height: 160px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .floor-bottom{
+        margin-bottom: 15px;
+    }
+    .padding-lr{
+        margin: 0 15px;
+    }
+    .text{
+        position: absolute;
+        left: 0;
+        bottom: -40px;
+        width: 100%;       
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: white;
+        background-color: rgba($color: #000000, $alpha: 0.4)
+    }
+}

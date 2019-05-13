@@ -1,0 +1,23 @@
+.side-root{
+    box-sizing: border-box;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    .side-p{
+        margin-bottom: 5px;
+    }
+    .side-ul{
+        li{
+            line-height: 36px;
+            color: #666;
+            cursor: pointer;
+            &:hover{
+                box-shadow: 0px 0px 3px 3px rgb(220, 235, 252); 
+            }
+        }
+        .cur-li{
+            box-shadow: 0px 0px 3px 3px rgb(220, 235, 252); 
+        }
+    }
+}

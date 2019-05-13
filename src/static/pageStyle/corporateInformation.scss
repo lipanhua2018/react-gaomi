@@ -1,0 +1,38 @@
+.content-root{
+    padding: 25px 20px;
+    background: white;
+    overflow: hidden;
+}
+.Loop-root{
+    .loop-img{
+        height: 200px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.List-root{
+    // height: 545px;
+    // overflow: auto;
+    margin-top: 15px;   
+    .row-list{
+        background-color: rgb(236, 242, 250);
+        margin-bottom: 15px;
+        padding: 15px;
+        p{
+            margin: 5px 0;
+            line-height: 20px;
+            color: #666;
+        }
+        span{
+            color: rgb(69, 113, 207);
+        }
+        transition:transform 0.5s;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.05,1.05);
+        }  
+    }
+}

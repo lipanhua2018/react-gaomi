@@ -1,0 +1,24 @@
+.App{
+    height: 100%;
+}
+.page-root{
+    clear: both;
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    background-color: #e7edf5;
+    .content-area{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding-bottom: 30px;
+        .side-area{
+            width: 18%;
+        }
+        .content-box{
+            width: 81%;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.Jdxiangqing-root{
+    .content-info{
+        position: relative;
+        .close-span{
+            position: absolute;
+            right: 0px;
+            top: 0x;
+            cursor: pointer;
+            &:hover{
+                color: rgb(31, 77, 138);
+            }
+        }
+        .details-img{
+            height: 400px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .details-title{
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .details-date{
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: #666;
+        }
+        .details-text{
+            line-height: 30px;
+            text-indent: 20px;
+            margin-top: 15px;
+        }
+    }
+}
